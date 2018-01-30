@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MobileForm - Dashboard</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--Custom Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="dashboard">
+  	        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3 class="logo">
+                    <a href="#"><img src="assets/images/user_logo.svg" class="img-responsive"></a>
+                  </h3>
+                    <strong><a href="#"><img src="assets/images/logo-icon.svg" class="img-responsive"></a></strong>
+                </div>
+                <div class="clearfix"></div>
+
+                <ul class="list-unstyled components">
+                    <li class="active">
+                        <a href="#">
+                            <i class="fa fa-bars"></i>
+                            <span>All forms</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-folder"></i>
+                            <span>Folders</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-cloud"></i>
+                            <span>Draft</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user"></i>
+                            <span>Team Members</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-code"></i>
+                            <span>Admin Console</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-cog"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-power-off"></i>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="user">
+                        	<img src="assets/images/user.png" class="img-circle img-responsive">
+                            Tomi Olusola<br>
+                            <span>Google</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+               <div class="container-fluid">
+                    	<div class="col-md-3">
+                        <a href="#" id="sidebarCollapse">
+                        <img class="img-rounded"  src="assets/images/logo_icon.png">
+                       </a>
+                      <h3 class="title">All forms</h3>
+                    </div>
+                    <div class="col-md-5">
+                		<div id="custom-search-input">
+                        <div class="input-group col-md-12">
+                            <input type="text" class="form-control input-lg" placeholder="Search for forms and folders" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-info btn-lg" type="button">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    		<div class="grid-list">
+                           <a href="#"><i class="fa fa-th-list"></i></a>
+                           <a href="#" class="active"><i class="fa fa-th"></i></a>
+                          </div>
+                          <div class="pull-right">
+                          	<a href="#" class="btn btn-success btn-new text-uppercase">+ New Form</a>
+                          </div>
+                    </div>
+                  <div class="clearfix"></div>
+                  <div class="row">
+                  	<div class="col-md-9">
+                    		<div class="no-forms">
+                            	<i class="fa fa-file-text-o"></i>
+                             <h3>No forms yet</h3>
+                          </div>
+                          <div class="col-md-12">
+                          	<div class="col-md-4">
+                            		<div class="form-item">
+                                    <i class="fa fa-file-text-o"></i>
+                                    <h4>Registration Form</h4>
+                                    <p>21 Jan, 2017 by <span>Tomi Olagoke</span>
+                              	</div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="form-item">
+                                    <i class="fa fa-folder-open"></i>
+                                    <h4>Registration Form</h4>
+                                    <p>21 Jan, 2017 by <span>Tomi Olagoke</span>
+                              	</div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="form-item">
+                                    <i class="fa fa-file-text-o"></i>
+                                    <h4>Registration Form</h4>
+                                    <p>21 Jan, 2017 by <span>Tomi Olagoke</span>
+                              	</div>
+                            </div>
+                          </div>
+                    	</div>
+                    <div class="col-md-3">
+                    	<div class="use-folders text-center">
+                        	<img src="assets/images/folders.png" class="img-responsive">
+                            <h4> Use Folders</h4>
+                            <p>Use folders to organise your multiple forms projects.</p>
+                            <p><a href="#" class="btn btn-create-folder btn-block">Create folder</a></p>
+                      </div>
+                    </div>
+                 </div>
+
+            </div>
+        </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+  </body>
+</html>
