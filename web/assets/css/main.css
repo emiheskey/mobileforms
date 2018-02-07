@@ -220,7 +220,8 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     content: '\e259';
     display: block;
     position: absolute;
-    right: 20px;
+    right: -20px;
+	top: 8px;
     font-family: 'Glyphicons Halflings';
     font-size: 0.6em;
 }
@@ -365,6 +366,12 @@ table.form-table tr .form-buttons .btn { margin-right: 10px;}
 table.form-table tr:hover .form-buttons {
 	visibility: visible;
 }
+/* Data Table */
+.data-table-view {
+	width: 100%;
+	overflow: scroll;
+
+}
 .use-folders {
 	padding: 50px 20px 20px 20px;
 	text-align: center;
@@ -392,6 +399,25 @@ table.form-table tr:hover .form-buttons {
 	text-transform: uppercase;
 	margin-top: 50%;
 }
+/* Form settings & share */
+.form-settings, .form-share {
+	width:70%;
+	margin: 20px 10px;
+}
+.form-settings h3, .form-share h3 {
+	color: #999;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+.form-settings .btn {
+	background: #4AA0C7;
+	color: #fff;
+	text-transform: uppercase;
+}
+.form-share .btn {
+	margin-left: 20px;
+}
+
 /* Sidebar 2 */
 #sidebar2 {
     min-width: 350px;
@@ -565,6 +591,7 @@ h3.invoice-title {
 	min-height: 50px;
 	position: fixed;
 	z-index: 1;
+	top: 0px;
 }
 .top-nav .container-fluid {
 	margin: 0; padding: 0;
@@ -847,7 +874,7 @@ table.invite a { color: #4AA0C7;}
 }
 
 table.submission{
-	width: 100%;
+	width: 150%;
 	height: 100%;
 	margin: 30px 0px;
 }
