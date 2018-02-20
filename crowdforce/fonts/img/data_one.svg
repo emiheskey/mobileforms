@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="600px" height="600px" viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#4C8EB4;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#609DC1;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#73ACCD;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#87BBDA;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#9ACAE6;}
+	.st5{fill:#FEC00F;}
+	.st6{fill:#15B0BF;}
+</style>
+<g>
+	<g>
+		<polygon class="st0" points="17.8,484.3 80.5,484.3 80.4,541.4 17.7,541.3 		"/>
+		<polygon class="st1" points="90.3,459.7 153,459.8 153,541.4 90.2,541.4 		"/>
+		<polygon class="st2" points="162.8,402.5 225.5,402.6 225.5,541.5 162.8,541.4 		"/>
+		
+			<rect x="235.3" y="421.8" transform="matrix(-1 -6.240924e-04 6.240924e-04 -1 533.0692 963.4894)" class="st3" width="62.7" height="119.6"/>
+		<polygon class="st4" points="307.9,481.6 370.6,481.7 370.5,541.5 307.8,541.5 		"/>
+		<polygon class="st2" points="378.5,459 441.3,459 441.2,541.5 378.5,541.4 		"/>
+		<polygon class="st3" points="451.1,421.8 513.8,421.9 513.7,541.5 451,541.5 		"/>
+		<polygon class="st4" points="523.6,342.8 586.3,342.8 586.3,541.5 523.5,541.5 		"/>
+	</g>
+	<g>
+		<g>
+			<polygon class="st5" points="32.1,295.9 15.4,273.3 222.5,120.6 357.1,212.6 572,65.4 587.9,88.6 357.1,246.6 223.1,155 			"/>
+		</g>
+		<g>
+			<polygon class="st5" points="589.9,137.8 567.4,137.8 567.4,88.2 517.8,88.2 517.8,65.7 589.9,65.7 			"/>
+		</g>
+	</g>
+	<path class="st6" d="M386.2,224.3c0-17.1-13.8-30.9-30.9-30.9c-17.1,0-30.9,13.8-30.9,30.9c0,17.1,13.8,30.9,30.9,30.9
+		C372.4,255.2,386.2,241.4,386.2,224.3z"/>
+	<path class="st6" d="M254.2,137.8c0-17.1-13.8-30.9-30.9-30.9c-17.1,0-30.9,13.8-30.9,30.9c0,17.1,13.8,30.9,30.9,30.9
+		C240.3,168.7,254.2,154.9,254.2,137.8z"/>
+</g>
+</svg>

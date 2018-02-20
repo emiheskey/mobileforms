@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/** Effra **/
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/effra-light.eot');
+    src: url('../fonts/effra-light.eot?#iefix') format('embedded-opentype'), url('../fonts/effra-light.woff') format('woff'), url('../fonts/effra-light.ttf') format('truetype'), url('../fonts/effra-light.svg#Effra') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/effra-regular.eot');
+    src: url('../fonts/effra-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/effra-regular.woff') format('woff'), url('../fonts/effra-regular.ttf') format('truetype'), url('../fonts/effra-regular.svg#Effra') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/effra-medium.eot');
+    src: url('../fonts/effra-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/effra-medium.woff') format('woff'), url('../fonts/effra-medium.ttf') format('truetype'), url('../fonts/effra-medium.svg#Effra') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../fonts/AvenirLTStd-Light.eot');
+  src: local('Avenir LT Std 35 Light'), local('AvenirLTStd-Light'),
+    url('../fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Light.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../fonts/AvenirLTStd-Book.eot');
+  src: local('Avenir LT Std 45 Book'), local('AvenirLTStd-Book'),
+    url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Book.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../fonts/AvenirLTStd-Roman.eot');
+  src: local('Avenir LT Std 55 Roman'), local('AvenirLTStd-Roman'),
+    url('../fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Roman.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Roman.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../fonts/AvenirLTStd-Medium.eot');
+  src: local('Avenir LT Std 65 Medium'), local('AvenirLTStd-Medium'),
+    url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Medium.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../fonts/AvenirLTStd-Black.eot');
+  src: local('Avenir LT Std 95 Black'), local('AvenirLTStd-Black'),
+    url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Black.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Black.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../fonts/AvenirLTStd-Heavy.eot');
+  src: local('Avenir LT Std 85 Heavy'), local('AvenirLTStd-Heavy'),
+    url('../fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Heavy.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../fonts/TisaOT-Thin.eot');
+  src: url('../fonts/TisaOT-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-Thin.woff') format('woff'),
+    url('../fonts/TisaOT-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../fonts/TisaOT.eot');
+  src: url('../fonts/TisaOT.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT.woff') format('woff'),
+    url('../fonts/TisaOT.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../fonts/TisaOT-Light.eot');
+  src: url('../fonts/TisaOT-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-Light.woff') format('woff'),
+    url('../fonts/TisaOT-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../fonts/TisaOT-Medi.eot');
+  src: url('../fonts/TisaOT-Medi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-Medi.woff') format('woff'),
+    url('../fonts/TisaOT-Medi.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../fonts/TisaOT-Bold.eot');
+  src: url('../fonts/TisaOT-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-Bold.woff') format('woff'),
+    url('../fonts/TisaOT-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../fonts/TisaOT-Xbold.eot');
+  src: url('../fonts/TisaOT-Xbold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-Xbold.woff') format('woff'),
+    url('../fonts/TisaOT-Xbold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../fonts/TisaOT-Black.eot');
+  src: url('../fonts/TisaOT-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-Black.woff') format('woff'),
+    url('../fonts/TisaOT-Black.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'TisaOT-XboldIta';
+  src: url('../fonts/TisaOT-XboldIta.eot');
+  src: url('../fonts/TisaOT-XboldIta.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-XboldIta.woff') format('woff'),
+    url('../fonts/TisaOT-XboldIta.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-LightIta';
+  src: url('../fonts/TisaOT-LightIta.eot');
+  src: url('../fonts/TisaOT-LightIta.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-LightIta.woff') format('woff'),
+    url('../fonts/TisaOT-LightIta.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-MediIta';
+  src: url('../fonts/TisaOT-MediIta.eot');
+  src: url('../fonts/TisaOT-MediIta.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-MediIta.woff') format('woff'),
+    url('../fonts/TisaOT-MediIta.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-ThinIta';
+  src: url('../fonts/TisaOT-ThinIta.eot');
+  src: url('../fonts/TisaOT-ThinIta.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-ThinIta.woff') format('woff'),
+    url('../fonts/TisaOT-ThinIta.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-BoldIta';
+  src: url('../fonts/TisaOT-BoldIta.eot');
+  src: url('../fonts/TisaOT-BoldIta.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-BoldIta.woff') format('woff'),
+    url('../fonts/TisaOT-BoldIta.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-Ita';
+  src: url('../fonts/TisaOT-Ita.eot');
+  src: url('../fonts/TisaOT-Ita.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-Ita.woff') format('woff'),
+    url('../fonts/TisaOT-Ita.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-BlackIta';
+  src: url('../fonts/TisaOT-BlackIta.eot');
+  src: url('../fonts/TisaOT-BlackIta.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TisaOT-BlackIta.woff') format('woff'),
+    url('../fonts/TisaOT-BlackIta.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
