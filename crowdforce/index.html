@@ -25,6 +25,9 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<!-- endbuild -->
+	<!-- custom:css-->
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<!-- endcustom -->
 
 	<!-- tracking code -->
 	<!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -77,19 +80,62 @@
 				<h1 class="mb color_white uppercased">What do you want to know about Africa?</h1>
 
 				<h4 class=" color_white margin_center col_10">CrowdForce is a platform to crowdsource reliable manpower for your Field Works, Research and Surveys.</h4>
-
-				<!-- <a href="" class="btn btn_primary uppercased _bolder">Get started </a> -->
 			</div>
 		</div>
 
 	</section>
+		<!-- Press -->
+		<section>
+			<div class="ico-list">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="text-muted">Customers</p>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-sm-2 col-xs-6 col-sm-offset-1">
+							<img src="img/NBS.png" alt="">
+						</div>
+						<div class="col-sm-2 col-xs-6">
+							<img src="img/dufil.png" alt="">
+						</div>
+						<div class="col-sm-2 col-xs-6">
+							<img src="img/beiersdorf.png" alt="">
+						</div>
+						<div class="col-sm-2 col-xs-6">
+							<img src="img/hsdf.png" alt="">
+						</div>
+						<div class="col-sm-2 col-xs-12">
+							<img src="img/ahf.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ico-list bd">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="text-muted">Recent Press</p>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-sm-4 col-sm-offset-2">
+							<a href="https://venturebeat.com/2017/08/10/500-startups-announces-the-7-companies-in-its-first-data-track/" target="_blank"><img src="img/vb.png" alt=""></a>
+						</div>
+						<div class="col-sm-4">
+							<a href="http://disrupt-africa.com/2016/05/nigerias-mobile-forms-is-taking-data-collection-mobile/" target="_blank"><img src="img/disrupt.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
 
 
 	<!-- give gray back if header is white -->
 	<section class="feature mb4 mobile_summary bk_gray10">
 		<div class="container">
         	<div class="col_3 align_right pull-right">
-           	<img src="img/africa.png">
+           	<img src="img/afrique10.png">
            </div>
 			<div class="col_9 align_left">
 				<span class="sub_text uppercased weight_bold m-b block_disp color_burnt">What we do</span>
@@ -169,7 +215,8 @@
 		<br>
 
 		<div class="margin_center col_9 centered clearfix">
-			<div class="action_card clearfix column col_4 mb">
+		<ul class="slider">
+			<li class="action_card clearfix col_4 mb">
 				<div class="case_img dark">
 					<div>
 						<img src="img/accounteer.svg">
@@ -181,9 +228,9 @@
 						in Africa.</p>
 					<a href="" class="block_disp uppercased weight_bold">Merijn, CEO </a>
 				</div>
-			</div>
+			</li>
 
-			<div class="action_card clearfix column col_4 mb">
+			<li class="action_card clearfix col_4 mb">
 				<div class="case_img">
 					<img src="img/market.jpg">
 				</div>
@@ -192,9 +239,9 @@
 					<p class="mb">We gain access to real time market data and a reliable mobile data platform that fits seamlessly into our existing solutions."</p>
 					<a href="" class="block_disp uppercased weight_bold">Kola Aina, Ventures Platform</a>
 				</div>
-			</div>
+			</li>
 
-			<div class="action_card clearfix column col_4 mb">
+			<li class="action_card clearfix col_4 mb">
 				<div class="case_img">
 					<h2 class="m-b weight_bolder">West African Academy of Public Health</h2>
 				</div>
@@ -205,8 +252,31 @@
 						in this space</p>
 					<a href="" class="block_disp uppercased weight_bold"> Francis Ohanyido, Sr. Fellow </a>
 				</div>
-			</div>
-
+			</li>
+			<li class="action_card clearfix col_4 mb">
+					<div class="case_img">
+						<img src="img/market.jpg">
+					</div>
+	
+					<div class="case_text rd">
+						<p class="mb">We gain access to real time market data and a reliable mobile data platform that fits seamlessly into our existing solutions."</p>
+						<a href="" class="block_disp uppercased weight_bold">Kola Aina, Ventures Platform</a>
+					</div>
+				</li>
+	
+				<li class="action_card clearfix col_4 mb">
+					<div class="case_img">
+						<h2 class="m-b weight_bolder">West African Academy of Public Health</h2>
+					</div>
+	
+					<div class="case_text rd">
+						<div class="ion-play video_btn hidden"></div>
+						<p class="mb">Reliable data is essential to sustainable economic development in Africa. Mobile Forms plays an transformative role
+							in this space</p>
+						<a href="" class="block_disp uppercased weight_bold"> Francis Ohanyido, Sr. Fellow </a>
+					</div>
+				</li>
+			</ul>
 		</div>
 
 	</section>
@@ -242,7 +312,6 @@
 
 		</div>
 	</section>
-
 
 
 	<!--<script src="js/w3data.js"></script>-->
@@ -295,6 +364,21 @@
 			}
 		})()
 	</script>
+
+<script src="js/jquery.bxslider.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.slider').bxSlider(
+			{
+				slideWidth: 320,
+    minSlides: 2,
+    maxSlides: 3,
+    	slideMargin: 20
+			}
+		);
+  });
+</script>
 
 	<!-- Start of HubSpot Embed Code -->
 	<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3812380.js"></script>

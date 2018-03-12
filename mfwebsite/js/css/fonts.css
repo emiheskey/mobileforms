@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/** Effra **/
+@font-face {
+    font-family: 'Effra';
+    src: url('../../../site/js/fonts/effra-light.eot');
+    src: url('../../../site/js/fonts/effra-light.eot?#iefix') format('embedded-opentype'), url('../../../site/js/fonts/effra-light.woff') format('woff'), url('../../../site/js/fonts/effra-light.ttf') format('truetype'), url('../../../site/js/fonts/effra-light.svg#Effra') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../../../site/js/fonts/effra-regular.eot');
+    src: url('../../../site/js/fonts/effra-regular.eot?#iefix') format('embedded-opentype'), url('../../../site/js/fonts/effra-regular.woff') format('woff'), url('../../../site/js/fonts/effra-regular.ttf') format('truetype'), url('../../../site/js/fonts/effra-regular.svg#Effra') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../../../site/js/fonts/effra-medium.eot');
+    src: url('../../../site/js/fonts/effra-medium.eot?#iefix') format('embedded-opentype'), url('../../../site/js/fonts/effra-medium.woff') format('woff'), url('../../../site/js/fonts/effra-medium.ttf') format('truetype'), url('../../../site/js/fonts/effra-medium.svg#Effra') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../../../site/js/fonts/AvenirLTStd-Light.eot');
+  src: local('Avenir LT Std 35 Light'), local('AvenirLTStd-Light'),
+url('../../../site/js/fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/AvenirLTStd-Light.woff') format('woff'),
+url('../../../site/js/fonts/AvenirLTStd-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../../../site/js/fonts/AvenirLTStd-Book.eot');
+  src: local('Avenir LT Std 45 Book'), local('AvenirLTStd-Book'),
+url('../../../site/js/fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/AvenirLTStd-Book.woff') format('woff'),
+url('../../../site/js/fonts/AvenirLTStd-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../../../site/js/fonts/AvenirLTStd-Roman.eot');
+  src: local('Avenir LT Std 55 Roman'), local('AvenirLTStd-Roman'),
+url('../../../site/js/fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/AvenirLTStd-Roman.woff') format('woff'),
+url('../../../site/js/fonts/AvenirLTStd-Roman.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../../../site/js/fonts/AvenirLTStd-Medium.eot');
+  src: local('Avenir LT Std 65 Medium'), local('AvenirLTStd-Medium'),
+url('../../../site/js/fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/AvenirLTStd-Medium.woff') format('woff'),
+url('../../../site/js/fonts/AvenirLTStd-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../../../site/js/fonts/AvenirLTStd-Black.eot');
+  src: local('Avenir LT Std 95 Black'), local('AvenirLTStd-Black'),
+url('../../../site/js/fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/AvenirLTStd-Black.woff') format('woff'),
+url('../../../site/js/fonts/AvenirLTStd-Black.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../../../site/js/fonts/AvenirLTStd-Heavy.eot');
+  src: local('Avenir LT Std 85 Heavy'), local('AvenirLTStd-Heavy'),
+url('../../../site/js/fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/AvenirLTStd-Heavy.woff') format('woff'),
+url('../../../site/js/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../../../site/js/fonts/TisaOT-Thin.eot');
+  src: url('../../../site/js/fonts/TisaOT-Thin.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-Thin.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../../../site/js/fonts/TisaOT.eot');
+  src: url('../../../site/js/fonts/TisaOT.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../../../site/js/fonts/TisaOT-Light.eot');
+  src: url('../../../site/js/fonts/TisaOT-Light.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-Light.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../../../site/js/fonts/TisaOT-Medi.eot');
+  src: url('../../../site/js/fonts/TisaOT-Medi.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-Medi.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-Medi.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../../../site/js/fonts/TisaOT-Bold.eot');
+  src: url('../../../site/js/fonts/TisaOT-Bold.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-Bold.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../../../site/js/fonts/TisaOT-Xbold.eot');
+  src: url('../../../site/js/fonts/TisaOT-Xbold.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-Xbold.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-Xbold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaOT';
+  src: url('../../../site/js/fonts/TisaOT-Black.eot');
+  src: url('../../../site/js/fonts/TisaOT-Black.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-Black.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-Black.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'TisaOT-XboldIta';
+  src: url('../../../site/js/fonts/TisaOT-XboldIta.eot');
+  src: url('../../../site/js/fonts/TisaOT-XboldIta.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-XboldIta.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-XboldIta.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-LightIta';
+  src: url('../../../site/js/fonts/TisaOT-LightIta.eot');
+  src: url('../../../site/js/fonts/TisaOT-LightIta.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-LightIta.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-LightIta.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-MediIta';
+  src: url('../../../site/js/fonts/TisaOT-MediIta.eot');
+  src: url('../../../site/js/fonts/TisaOT-MediIta.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-MediIta.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-MediIta.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-ThinIta';
+  src: url('../../../site/js/fonts/TisaOT-ThinIta.eot');
+  src: url('../../../site/js/fonts/TisaOT-ThinIta.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-ThinIta.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-ThinIta.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-BoldIta';
+  src: url('../../../site/js/fonts/TisaOT-BoldIta.eot');
+  src: url('../../../site/js/fonts/TisaOT-BoldIta.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-BoldIta.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-BoldIta.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-Ita';
+  src: url('../../../site/js/fonts/TisaOT-Ita.eot');
+  src: url('../../../site/js/fonts/TisaOT-Ita.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-Ita.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-Ita.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaOT-BlackIta';
+  src: url('../../../site/js/fonts/TisaOT-BlackIta.eot');
+  src: url('../../../site/js/fonts/TisaOT-BlackIta.eot?#iefix') format('embedded-opentype'),
+url('../../../site/js/fonts/TisaOT-BlackIta.woff') format('woff'),
+url('../../../site/js/fonts/TisaOT-BlackIta.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}

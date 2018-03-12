@@ -311,6 +311,14 @@ td {
   	color: #4DB142;
 }
 
+.color_white {
+  	color: #fff;
+}
+
+.color_yellow {
+  	color: #FC0;
+}
+
 .color_red {
 	color: #EF073F;
 }
