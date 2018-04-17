@@ -218,6 +218,13 @@ body.scrolled a.btn.login_btn  {
 	background-size: cover;
 	position: relative;
 }
+.hero4 {
+	height: 95%;
+	max-height: 600px;
+	background: url(../img/hero4.jpg) top;
+	background-size: cover;
+	position: relative;
+}
 
 .hero.industry_specific {
 	background: rgba(0,0,0,0.2) url(../img/market.jpg);
@@ -262,7 +269,7 @@ body.scrolled a.btn.login_btn  {
 	font-size: 23px;
 }
 
-.hero:before, .hero2:before, .hero3:before {
+.hero:before, .hero2:before, .hero3:before, .hero4:before  {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -276,7 +283,7 @@ body.scrolled a.btn.login_btn  {
 	content: none;
 }
 
-.hero:after, .hero2:after, .hero3:after {
+.hero:after, .hero2:after, .hero3:after, .hero4:before  {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -328,7 +335,9 @@ body.scrolled a.btn.login_btn  {
 .bk_gray {
 	background-color: #f6f6f6 !important;
 }
-
+.bk_gray10 {
+	background-color: #f9f9f9 !important;
+}
 .bk_gray10 {
 	background-color: #fff !important;
   padding-bottom:30px;
@@ -695,13 +704,13 @@ body.scrolled a.btn.login_btn  {
 }
 
 .get_started_section.feature {
-	padding: 40px 0;
+  padding: 40px 0;
+  background: #f6f6f6;
 }
 
 .get_started_cube {
 	padding: 40px;
-	background: #f2f2f2;
-	background: #f7f9fb;
+	background: #fff;
 	border-radius: 3px;
 	text-shadow: 0 1px rgba(255,255,255,.3);
 }
@@ -1127,7 +1136,7 @@ footer {
 }
 
 .network_feature {
-	padding-top: 50px;
+	padding-top: -10px;
 }
 
 .dot_wrap.dot_three {
@@ -1276,7 +1285,7 @@ footer {
 	    padding-top: 40px;
 	}
 
-	.hero {
+	.hero, .hero4 {
 		height: 500px;
 	}
 
@@ -2431,7 +2440,7 @@ margin-top: 50px;
 
 /* Network Section */
 .network-section {
-	background: url(../img/solutions/banner.png) no-repeat #f6f6f6;
+	background: url(../img/solutions/banner.png) bottom no-repeat #f6f6f6;
 	padding: 30px 0px 110px 0px;
 	color: #fff;
 }
